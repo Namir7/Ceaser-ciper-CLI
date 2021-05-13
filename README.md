@@ -10,8 +10,12 @@
 2. Open a command line shell and navigate to cloned folder
 
  ``` cd  Ceaser-ciper-CLI```
+ 
+3. Go to dev branch if you're not there 
 
-3. Install all dependencies
+``` git checkout dev ```
+
+4. Install all dependencies
 
  ``` npm install ```
 
