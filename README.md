@@ -1,5 +1,22 @@
-# Ceaser cipher CLI tool
+# Caeser cipher CLI tool
 ![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--1-VesoOt--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/w5r4uoh0htwo6wuwshq7.jpg)
+
+<h2> Installation: </h2>
+
+1. Clone the repository to local machine
+
+ ``` git clone https://github.com/albertthewinner2000/Ceaser-ciper-CLI.git ```
+
+2. Open a command line shell and navigate to cloned folder
+
+ ``` cd  Ceaser-ciper-CLI```
+
+3. Install all dependencies
+
+ ``` npm install ```
+
+
+***
 
 <h2> Usage: </h2>
 
@@ -67,14 +84,14 @@ Input value should be file with .txt extension. If doesn't specified program wil
 
 <h2>  Usage example: </h2>
 
-Create new encrypted message from index.txt file and wirite it to output.txt with shift 7.
+Create new encrypted message from ./txt/index.txt file and wirite it to ./txt/output.txt with shift 7.
 
-```node index -a encode -s 7 -i "./input.txt" -o "./output.txt"```
+```node index -a encode -s 7 -i "./txt/input.txt" -o "./txt/output.txt"```
 
-> input.txt
+> txt/input.txt
 
-```input.txt This is secret. Message about "_" symbol!```
+```This is secret. Message about "_" symbol!```
 
-> output.txt  
+> txt/output.txt  
 
-```output.txt Aopz pz zljyla. Tlzzhnl hivba "_" zftivs!```
+```Aopz pz zljyla. Tlzzhnl hivba "_" zftivs!```
